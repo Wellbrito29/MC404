@@ -16,7 +16,7 @@ INT_TIMER   .equ 0x10 @tipo interrupcao
 .org 0x2000
 
 comec:
-botao:   @ le o botao          @ botao pronto para ser lido?
+botao:   @           @ botao pronto para ser lido?
 jmp    botao
 trata_timer:
 cmp   r6,r7 @compara para ver se sao iguais
