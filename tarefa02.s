@@ -19,6 +19,7 @@ ivetor: .word 0x400 @salva o endereço do inicio do vetor
     .word 0
     soma:
     .word 0
+@@ novo teste
 
   inicio:   @ procura qual divisor eh (2,4,8)
   ld r2,divisor
